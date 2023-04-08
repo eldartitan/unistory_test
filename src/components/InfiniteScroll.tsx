@@ -2,6 +2,7 @@ import { useState, useEffect, useRef, FC, MouseEventHandler } from "react";
 import { CloseSvg } from "./ui/CloseSvg";
 import { useGetAllDataQuery } from "../store/api";
 import { Link } from "react-router-dom";
+import { IData } from "../types/unistory.types";
 
 interface IInfiniteScroll {
     name?: String;

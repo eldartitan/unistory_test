@@ -1,5 +1,3 @@
-// import { MouseEventHandler } from 'react';
-
 interface IMeta {
     currentPage: Number;
     perPage: Number;
@@ -22,3 +20,9 @@ interface IAccount {
     account: String | undefined
 }
 
+export type {
+    IMeta,
+    IData,
+    IQuery,
+    IAccount
+}

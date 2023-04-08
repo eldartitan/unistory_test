@@ -1,4 +1,5 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
+import { IQuery } from '../types/unistory.types'
 
 const API_URL = "https://new-backend.unistory.app/api/data"
 

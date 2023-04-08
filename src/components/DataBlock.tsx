@@ -4,7 +4,8 @@ import Input from "./ui/Input";
 import Button from "./ui/Button";
 import { InfiniteScroll } from "./InfiniteScroll";
 import { useAppDispatch, useAppSelector } from "../store/hooks";
-import { addToTable, openTable, removeAdded, setEmail, setName } from "../store/UserSlice";
+import { addToTable, openTable, removeAdded, setEmail, setName } from "../store/userSlice";
+import { IAccount } from "../types/unistory.types";
 
 export const DataCenter: FC<IAccount> = ({ account }) => {
     const { name, email, includeTable, table } = useAppSelector(
