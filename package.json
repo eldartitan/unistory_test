@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
+    "@types/react-redux": "^7.1.25",
     "@usedapp/core": "^1.2.7",
     "buffer": "^6.0.3",
     "ethers": "^5.7.2",
